@@ -1,0 +1,190 @@
+body{
+  font-family:"Montserrat";
+  text-align:center;
+}
+h1,h2,h3,h4,h5,h6
+{
+  font-family:"Montserrat-Bold", sans-serif;
+  font-weight: bold;
+}
+h3
+{
+  font-size:1.5rem;
+  font-weight:900;
+}
+/* HEADINGS */
+.big-heading
+{
+  font-family: "Montserrat-black",sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight:900;
+}
+.section-heading
+{
+  font-size:3rem;
+  line-height: 1.5;
+}
+
+/* SECTIONS */
+.colored-section
+{
+  color:white;
+  background-color:#ff4c68;
+}
+.white-section
+{
+  background-color:#fff;
+}
+/* title section */
+@media (max-width:991px)
+{
+  #title{
+    text-align: center;
+  }
+  .title-image
+  {
+    position:static;
+    transform:rotate(0deg);
+  }
+}
+
+.container-fluid
+{
+  padding:3% 15% 11%;
+}
+.download-button
+{
+  margin:5% 3% 0 0;
+}
+.navbar-brand
+{
+  font-family:ubuntu;
+  font-weight:bold;
+  font-size:2rem;
+}
+.navbar
+{
+  padding: 0 0 4.5rem;
+}
+
+.nav-link
+{
+  margin-left:15px;
+  font-size:1.3rem;
+}
+.title-image
+{
+  right:20%;
+  position:absolute;
+  transform:rotate(25deg);
+  width:60%;
+}
+.title-image-container
+{
+  position:relative;
+}
+
+
+#title
+{
+  text-align:left;
+}
+
+
+/* features section */
+.desc
+{
+  color:#8f8f8f;
+}
+.feature-box
+{
+  padding:5%;
+}
+.feature-title
+{
+  font-size: 1.5rem;
+}
+.icon
+{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover
+{
+  color:#ff4c68;
+}
+
+
+#features
+{
+  z-index:1;
+  position:relative;
+  padding:7% 15%;
+}
+
+
+/* Testimonials section */
+.carousel-item
+{
+  padding:7% 15%;
+}
+.testimonial-image
+{
+  width:10%;
+  border-radius:100%;
+  margin:20px;
+}
+.testimonial-text
+{
+  font-size:3rem;
+  line-height: 1.5;
+}
+
+
+#testimonials
+{
+  background-color:#ef8172;
+}
+
+/* Press Section */
+.press-logo
+{
+  margin:20px 20px 50px;
+  width:15%
+}
+
+
+#press
+{
+  background-color: #ef8172;
+  padding-bottom: 30px;
+}
+
+/* Pricing Section */
+.pricing-column
+{
+  padding:3% 2%;
+}
+.price-text
+{
+  font-size:3rem;
+  line-height:1.5;
+}
+
+
+#pricing
+{
+  padding:100px;
+}
+
+/* CALL TO ACTION CENTER     */
+.cta-container
+{
+  padding:9% 15%;
+}
+/* FOOTER SECTION */
+.ftr
+{
+  margin:7% 1% 2% 1%;
+}
